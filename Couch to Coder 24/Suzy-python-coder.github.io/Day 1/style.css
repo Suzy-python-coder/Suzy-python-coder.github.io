@@ -1,0 +1,95 @@
+body{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin: 0px;
+}
+
+#logo {
+    margin: 0px; 
+    padding: 8px; 
+    font-family: "Fredoka One", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 10px  black ;
+} 
+
+ul {
+    margin: 0px;
+}
+
+body > header { 
+    background-color: pink;  
+    color: whitesmoke;
+    display: flex;
+    height: 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-ul > li {
+    display:flex;
+}
+
+#nav-ul > li {
+    padding: 12px;
+    margin: 10px;
+}
+
+body > header > nav > ul { 
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton { 
+    color: whitesmoke; 
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+
+}
+
+body > main  article {
+    width: 70%;
+    margin:auto;
+}
+
+#main-content {
+    display: flex;
+    text-decoration: none;
+    color: solid black;
+}
+
+#main-content > div{
+    width: 70%;
+    justify-content: space-around;
+}
+
+
+
+
+h2 {
+    text-align: center;
+}
+form{
+    text-align: center;
+}
+
+body > footer { 
+    background-color: pink;
+    display: flex;
+}
+
+img{
+    border-radius: 50%;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li a{ 
+   text-decoration: none;
+    color: whitesmoke;
+}
